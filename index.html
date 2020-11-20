@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="deco.css" />
+    <title>Moteur de recherche - Année Lumière</title>
+    <meta
+      name="description"
+      content="Bienvenue sur votre moteur de recherche dédié au cinéma. Par Année Lumière, le podcast du septième art."
+    />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo1.png" alt="annee lumiere" />
+      <form action="index.html" method="post">
+        <label for="movie-title">Quel film cherchez-vous ?</label>
+        <input
+          type="text"
+          name="movie-title"
+          id="movie-title"
+          placeholder="mulholland drive"
+          required
+        />
+        <input type="submit" value="OK" />
+      </form>
+    </header>
+
+    <main>
+      <div class="resultat"></div>
+    </main>
+
+    <footer>
+      <p>
+        Chouette alors, le contenu de cette page est distribué sous
+        <a
+          href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"
+          target="_blank"
+          rel="noreferrer"
+          >licence CC BY-SA 4.0</a
+        >
+      </p>
+    </footer>
+
+    <!-- time for some script, baby -->
+    <script src="script.js"></script>
+  </body>
+</html>
